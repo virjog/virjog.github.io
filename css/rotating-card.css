@@ -4,7 +4,7 @@ body {
 	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
 }
 .bg {
-    background-image: url("http://i.imgur.com/J1K5MJa.jpg");
+    background-image: url(http://i.imgur.com/J1K5MJa.jpg);
     z-index: 0;
 }
 /* entire container, keeps perspective */
@@ -78,8 +78,9 @@ body {
     color: #444444;
 }
 .card-container, .front, .back {
-	width: 100%;
+	width: 350px;
 	height: 420px;
+    margin: 0 auto;
 	border-radius: 4px;
 }
 .card .cover{
