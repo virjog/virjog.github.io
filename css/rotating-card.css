@@ -4,7 +4,7 @@ body {
 	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
 }
 .bg {
-    background-image: url(http://i.imgur.com/J1K5MJa.jpg);
+    background-image: url("http://i.imgur.com/J1K5MJa.jpg");
     z-index: 0;
 }
 /* entire container, keeps perspective */
