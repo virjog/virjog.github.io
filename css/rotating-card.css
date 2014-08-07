@@ -239,10 +239,6 @@ body {
     body {
         background-image: url(http://i.imgur.com/J1K5MJa.jpg);
         background-repeat: no-repeat; 
-        background-position: center;
-        webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover; 
     }   
 }
