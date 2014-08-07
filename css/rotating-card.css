@@ -4,11 +4,9 @@ body {
 	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
 }
 body {
-    background-color: #000; 
     background-image: url(http://i.imgur.com/J1K5MJa.jpg);
     background-repeat: no-repeat; 
     background-position: center;
-    background-attachment: fixed;       
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
