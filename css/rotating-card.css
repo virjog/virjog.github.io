@@ -224,4 +224,8 @@ body {
         margin: 0 auto;
         border-radius: 4px;
     }
+
+    .bg {
+        background-size: cover;
+    }
 }
