@@ -232,7 +232,7 @@ body {
 @media only screen and (max-device-width : 480px){
     .card-container, .front, .back {
         width: 50%;
-        height: 420px;
+        height: auto;
         margin: 0 auto;
         border-radius: 4px;
     }
