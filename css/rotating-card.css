@@ -5,6 +5,8 @@ body {
 }
 .bg {
     background-image: url(http://i.imgur.com/J1K5MJa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 0;
 }
 /* entire container, keeps perspective */
