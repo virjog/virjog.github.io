@@ -236,10 +236,4 @@ body {
         margin: 0 auto;
         border-radius: 4px;
     }
-
-    .bg {
-        background-image: url(http://i.imgur.com/J1K5MJa.jpg) no-repeat center center fixed;
-        background-size: cover;
-        min-height: 100%;
-    }
 }
