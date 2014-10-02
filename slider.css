@@ -1,0 +1,82 @@
+#save-slider {
+	height: 5px;
+	width: 91%;
+	background-color: #333;
+	margin-left: 80px;
+}
+
+.range {
+	height: 45px;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: -50px;
+}
+
+.dragdealer {
+  position: relative;
+  height: 30px;
+  background: #EEE;
+}
+.dragdealer .handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.dragdealer .red-bar {
+  width: 60px;
+  height: 60px;
+  background: #ff9900;
+  border-radius: 150px;
+  color: #FFF;
+  font-size: 14px;
+  top: -25px;
+  text-align: center;
+  
+  background-image: url(http://i.imgur.com/iGyu7ce.png);
+  background-repeat: no-repeat;
+  -ms-background-position-y: 17px;
+      background-position-y: 17px;
+  -ms-background-position-x: 12px;
+      background-position-x: 12px;
+  -webkit-background-size: 35px;
+       -o-background-size: 35px;
+          background-size: 35px;
+  
+}
+.dragdealer .disabled {
+  background: #898989;
+}
+
+.block-tag {
+	margin-top: -16px;
+	text-align: center;
+}
+
+.left {
+	float: left;
+	margin-left: -100px;
+}
+.right {
+	float: right;
+	margin-right: -100px;
+}
+#save-slider h5{
+	padding: 10px 0;
+	letter-spacing: 1.4px;
+	width: 91px;
+	color: white;
+	font-size: 24px;
+	background: #ff9900;
+}
+
+.words {
+	padding-top:40px;
+	margin-left: -80px;
+}
+
+.num{
+	color:#ff9900;
+	font-size: 40px;
+}
+
