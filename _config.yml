@@ -2,7 +2,7 @@
 title: "Viral Jogani"
 email: viraljogani@gmail.com
 description: >
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "/virjog.github.io" # the subpath of your site, e.g. /blog/
 url: "http://virjog.github.io" # the base hostname & protocol for your site
 twitter_username: virjog
 github_username:  virjog
