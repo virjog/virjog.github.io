@@ -1,38 +1,38 @@
-<html>
-<head>
-	<title>Viral Jogani</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
-	<meta name="author" content="Viral Jogani">
-	<meta name="description" content="Viral Jogani is studying Computer Engineering at Rutgers University. His passions include technology, entrepreneurship, design, and reading.">
-	<link href="./css/style.css" rel="stylesheet" type="text/css">
-	<link href="./css/animate.css" rel="stylesheet" type="text/css">
-	<link href="./css/MyFontsWebfontsKit.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-	<div class="about">
-		<p class="animated slideInUp NeueHaasUnicaPro-Regular" style="-webkit-animation-delay: 0.5s;">Hey there!</p>
+---
+layout: default
+---
 
-		<p class="animated zoomIn NeueHaasUnicaPro-Regular" style="-webkit-animation-delay: 1s;";>My name is Viral Jogani, and I'm studying Electrical and Computer Engineering at <a href="http://rutgers.edu">Rutgers University</a>.</p>
+<!-- Brief intro -->
+<div class="header-intro">
+  <h2>Viral Jogani</h2>
+  <p>Software Engineer at Capital One<br/>Electrical and Computer Engineering at Rutgers University</p>
+</div>
+<hr/>
+<!-- End intro -->
 
-		<p class="animated zoomIn NeueHaasUnicaPro-Regular" style="-webkit-animation-delay: 2s;">Outside of school, I'm a designer and front-end web developer, who has designed mobile apps and built websites for startups such as <a href="http://socialblood.org">Socialblood</a>, <a href="http://tennisbuddyapp.com">Tennis Buddy</a>, and <a href="http://seamlessdocs.com">SeamlessDocs</a>.</p>
+<div class="home">
 
-		<p class="animated zoomIn NeueHaasUnicaPro-Regular" style="-webkit-animation-delay: 3s;">Check out some of my work on <a href="http://dribbble.com/virjog">Dribbble</a> and <a href="http://github.com/virjog">GitHub</a>, or view my <a href="./ViralJoganiResume.pdf">resume</a>.</p>
+  <ul id="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <aside class="dates">{{ post.date | date: "%b %-d" }}</aside>
+        </a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <h2>{{ post.description }}</h2></a>
+        <!-- <p>
+        {{ post.content | truncatewords: 50 }}
+        </p> -->
+      </li>
+    {% endfor %}
+  </ul>
 
-		<!-- <p>Read what Viral has to say about startups in India, </p> -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="pagination-link" href="{{ paginator.previous_page_path }}" class="previous"><span class="arrow">&larr;</span> Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a class="pagination-link" href="{{ paginator.next_page_path }}" class="next">Next <span class="arrow">&rarr;</span></a>
+    {% endif %}
+  </div>
 
-		<p class="animated zoomIn NeueHaasUnicaPro-Regular" style="-webkit-animation-delay: 4s;">Feel free to tweet me <a href="http://twitter.com/virjog">@virjog</a> or drop me an email at <a href="mailto:viraljogani@gmail.com">viraljogani@gmail.com</a>.</p>
-	</div>
-	<figure><img class="animated fadeIn" style="-webkit-animation-duration: 3s;"></img></figure>
-	
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-51353397-1', 'auto');
-  ga('send', 'pageview');
-</script>
-</body>
-</html>
+</div>
