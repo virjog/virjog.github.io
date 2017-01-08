@@ -16,7 +16,7 @@
 
 .header-container {
     position: fixed;
-    bottom: 0px;
+    top: 0px;
     width: 100%;
     height: 70px;
     background: #3366ff;
@@ -59,8 +59,8 @@
     @include transform(translateY(0%));
 }
 .headroom--unpinned {
-    // display: none;
-    @include transform(translateY(100%));
+    //display: none;
+    @include transform(translateY(-100%));
 }
 
 // Avatar
