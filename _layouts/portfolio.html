@@ -8,15 +8,11 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
   <div class="container">
     <div class="project-list">
       {% for project in site.data.projects %}
         <div class="project">
-          <img class="project-thumbnail" src="{{ project.image }}"/>
+          <img class="thumbnail" src="{{ project.image }}"/>
           <div class="project-info">
             <a class="name" href="{{ project.link }}">{{ project.name }}</a>
             <p class="description">{{ project.description }}</p>
