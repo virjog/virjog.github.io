@@ -1,56 +1,82 @@
-/**
- * Wrapper
- */
-.portfolio-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 120px 0px 0px 0px;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+.project-list {
+  margin: 0;
+  list-style-type: none;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
+.project {
+  /**display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  align-items: center;
+  font-family: Circular;*/
+
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  transition: opacity 1s ease-in
 }
 
-.responsive-image {
-  max-width: 100%;
+.project div {
+  display: inline-block;
 }
 
-.cell img {
-  display: block;
+.project-info {
+  margin-left: 30px;
 }
 
-@media screen and (min-width: 600px) {
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .cell {
-    width: 50%;
-  }
+.project-thumbnail {
+  display: inline-block;
+  width: 250px;
+  height: 180px;
+  min-width: 250px;
+  min-height: 180px;
 }
 
-.cell {
-  margin: 1rem;
+.project h1 {
+  display: inline-block;
 }
 
-@media screen and (min-width: 600px) {
-  .cell {
-    width: calc(50% - 2rem);
-  }
+.name {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-@media screen and (min-width: 1000px) {
-  .cell {
-    width: calc(33.3333% - 2rem);
-  }
+.name:hover {
+  text-decoration: none;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.link {
+  font-family: Circular;
+  font-size: 18px;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link:after {
+  content: '->';
+  margin-left: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: margin-left .1s ease;
+  transition: margin-left .1s ease
+}
+
+.link:hover:after {
+  margin-left: 10px;
 }

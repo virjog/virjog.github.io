@@ -1,35 +1,38 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-      <div class="portfolio-wrapper">
-        <div class="page-content">
-          {{ content }}
+---
+layout: default
+---
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <div class="container">
+    <div class="project-list">
+      {% for project in site.data.projects %}
+        <div class="project">
+          <img class="project-thumbnail" src="{{ project.image }}"/>
+          <div class="project-info">
+            <a class="name" href="{{ project.link }}">{{ project.name }}</a>
+            <p class="description">{{ project.description }}</p>
+            <a class="link" href="{{ project.link }}">Learn more</a>
+          </div>
         </div>
-        {% include footer.html %}
-    </div>
+       {% endfor %}
+     </div>
+  </div>
 
-    <script src="//cdn.jsdelivr.net/headroomjs/0.5.0/headroom.min.js"></script>
-    <script type="text/javascript">
-      var el = document.querySelector(".header-container");
-      var headroom  = new Headroom(el, {
-        "offset": 205,
-        "tolerance": 5
-      });
-      headroom.init();
-    </script>
+  <!-- <div class="related">
+    <h2>Related</h2>
+    {% for post in site.related_posts limit:3 %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+       &nbsp; <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span></a>
+    {% endfor %}
+  </div> -->
 
-    <!-- Twitter Shizzle -->
-    <script type="text/javascript">
-    window.twttr = (function (d, s, id) {
-      var t, js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src= "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-    }(document, "script", "twitter-wjs"));
-    </script>
-  </body>
-</html>
+</div>

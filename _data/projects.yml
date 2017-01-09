@@ -1,0 +1,17 @@
+- name: Captura
+  id: captura
+  link: /captura/
+  image: http://placehold.it/250x180
+  description: Designed and developed an Android app to help users learn a language by capturing photos of objects, using image recognition to generate keywords, and translating the words the user wants to learn.
+
+- name: YouTube Live
+  id: youtubelive
+  link: /youtube-live/
+  image: http://placehold.it/250x180
+  description: Designed a concept Android app for Google if they decided to enter the mobile live streaming space. 
+
+- name: Socialblood
+  id: socialblood
+  link: /socialblood/
+  image: http://placehold.it/250x180
+  description: Project description will go here.
