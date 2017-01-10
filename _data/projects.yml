@@ -18,13 +18,13 @@
 
 - name: Socialblood
   id: socialblood
-  link: /socialblood/
+  link: https://www.behance.net/gallery/42739765/Socialblood-for-iPhone
   image: /assets/images/socialblood.png
   description: Designed the user interface and user experience of the iOS app for Socialblood, a tool to connect with blood donors. 
 
 - name: Tennis Buddy
   id: tennisbuddy
-  link: /tennis-buddy/
+  link: https://www.behance.net/gallery/26893693/Tennis-Buddy-for-Android
   image: /assets/images/tennis buddy.png
   description: Designed the user interface and user experience of the Android app for Tennis Buddy, an app find nearby tennis partners.
 
