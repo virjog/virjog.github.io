@@ -37,7 +37,7 @@
 - name: FindMyHealth
   id: findmyhealth
   link: /findmyhealth/
-  image: http://placehold.it/250x180
+  image: /assets/images/findmyhealth.png
   description: Designed the user interface and user experience for the iOS app, which helps users find hospitals with the least wait times for non-life threatening emergencies. Won "Best Social Innovation Hack" at PennApps XII.
 
 - name: Rush
