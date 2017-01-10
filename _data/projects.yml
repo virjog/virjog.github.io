@@ -10,11 +10,11 @@
   image: /assets/images/youtube live.png
   description: Designed a concept Android app for Google if they decided to enter the mobile live streaming space. 
 
-- name: WalkThru
-  id: WalkThru
-  link: /walkthru/
-  image: /assets/images/walkthru.png
-  description: Designed the Chrome extension, several landing pages, and the branding for the startup.
+# - name: WalkThru
+#   id: WalkThru
+#   link: /walkthru/
+#   image: /assets/images/walkthru.png
+#   description: Designed the Chrome extension, several landing pages, and the branding for the startup.
 
 - name: Socialblood
   id: socialblood
@@ -30,18 +30,18 @@
 
 - name: hackHub
   id: hackhub
-  link: /hackhub/
+  link: http://devpost.com/software/hack-hub
   image: /assets/images/hackHub.png
   description: Designed and built the front-end for an information portal to help hackers communicate with hackathon organizers. Won "Best Design Hack" at hackNY 2015.
 
 - name: FindMyHealth
   id: findmyhealth
-  link: /findmyhealth/
+  link: https://devpost.com/software/find-my-health
   image: /assets/images/findmyhealth.png
   description: Designed the user interface and user experience for the iOS app, which helps users find hospitals with the least wait times for non-life threatening emergencies. Won "Best Social Innovation Hack" at PennApps XII.
 
 - name: Rush
   id: rush
-  link: /rush/
+  link: https://www.behance.net/gallery/24242747/Rush-for-Android
   image: /assets/images/rush.png
   description: Designed an Android app for Rutgers students to view the campus bus routes and schedule. 
