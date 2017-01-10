@@ -1,8 +1,15 @@
 
 
 <div class="header-container" id="header-container">
+  <header class="site-header">
+    <a href="{{ site.baseurl }}/">
+      <div class="avatar">
+        <img src="/assets/images/avatar.jpg" />
+      </div>
+    </a>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </header>
 
-<!-- Site navigation -->
   <nav class="site-nav">
     <div class="trigger">
       {% for page in site.pages %}
@@ -14,15 +21,4 @@
       <a class="facebook page-link" href="https://www.facebook.com/virjog"><span class="icon-facebook"></span></a>
     </div>
   </nav>
-
-  <!-- The title of the site -->
-  <header class="site-header">
-    <a href="{{ site.baseurl }}/">
-      <div class="avatar">
-        <img src="/assets/images/avatar.jpg" />
-      </div>
-    </a>
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-  </header>
-
 </div>
