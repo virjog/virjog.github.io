@@ -1,37 +1,37 @@
 - name: Captura
   id: captura
   link: https://github.com/virjog/Android-Captura
-  image: http://placehold.it/250x180
+  image: /assets/images/captura.png
   description: Designed and developed an Android app to help users learn a language by capturing photos of objects, using image recognition to generate keywords, and translating the words.
 
 - name: YouTube Live
   id: youtubelive
   link: https://medium.com/@virjog/youtube-live-for-android-by-viral-jogani-cb152248ae5b
-  image: http://placehold.it/250x180
+  image: /assets/images/youtube live.png
   description: Designed a concept Android app for Google if they decided to enter the mobile live streaming space. 
 
 - name: WalkThru
   id: WalkThru
   link: /walkthru/
-  image: http://placehold.it/250x180
+  image: /assets/images/walkthru.png
   description: Designed the Chrome extension, several landing pages, and the branding for the startup.
 
 - name: Socialblood
   id: socialblood
   link: /socialblood/
-  image: http://placehold.it/250x180
+  image: /assets/images/socialblood.png
   description: Designed the user interface and user experience of the iOS app for Socialblood, a tool to connect with blood donors. 
 
 - name: Tennis Buddy
   id: tennisbuddy
   link: /tennis-buddy/
-  image: http://placehold.it/250x180
+  image: /assets/images/tennis buddy.png
   description: Designed the user interface and user experience of the Android app for Tennis Buddy, an app find nearby tennis partners.
 
 - name: hackHub
   id: hackhub
   link: /hackhub/
-  image: http://placehold.it/250x180
+  image: /assets/images/hackhub.png
   description: Designed and built the front-end for an information portal to help hackers communicate with hackathon organizers. Won "Best Design Hack" at hackNY 2015.
 
 - name: FindMyHealth
@@ -43,5 +43,5 @@
 - name: Rush
   id: rush
   link: /rush/
-  image: http://placehold.it/250x180
+  image: /assets/images/rush.png
   description: Designed an Android app for Rutgers students to view the campus bus routes and schedule. 
