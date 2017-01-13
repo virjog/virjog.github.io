@@ -223,7 +223,7 @@ Post List
 }
 
 #post-list a {
-    color: #333;
+    color: $brand-color;
     display: block;
     font: 600 21px/1.7 $base-font-family;
 }
@@ -244,7 +244,7 @@ Post List
     position: relative;
     top: 1px;
     font: 300 17px/1.8 $base-font-family;
-    color: #bbb;
+    color: $brand-color;
 }
 
 #post-list-footer {
@@ -324,7 +324,7 @@ Post List
 
 // PAGINATION
 .pagination {
-    border-top: 1px solid #eee;
+    /**border-top: 1px solid #eee;*/
     margin-top: 50px;
     padding-top: 20px;
 }
